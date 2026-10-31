@@ -1,0 +1,6 @@
+import React,{useState} from 'react';
+import {Plus,Minus} from 'lucide-react';
+import {AnimatePresence,motion} from 'framer-motion';
+import {faqs} from '../data/clinic.js';
+import {Wrap,Heading} from './Primitives.jsx';
+export default function FAQ(){const [open,setOpen]=useState(0);return <section className="faq-section section-padding" id="faq"><Wrap><div className="faq-layout"><div className="faq-title"><Heading eyebrow="05 / Good to know" title={<>Questions, <em>answered.</em></>} copy="A little clarity goes a long way. Here are the essentials about this fictional clinic and its interactive demo."/><div className="faq-decoration" aria-hidden="true">✳</div></div><div className="faq-items">{faqs.map((f,i)=><div className="faq-item" key={f.question}><button type="button" aria-expanded={open===i} aria-controls={`faq-${i}`} onClick={()=>setOpen(open===i?null:i)} className="faq-question"><span>{String(i+1).padStart(2,'0')}.</span><strong>{f.question}</strong><span className="faq-indicator">{open===i?<Minus size={18}/>:<Plus size={18}/>}</span></button><AnimatePresence initial={false}>{open===i&&<motion.div id={`faq-${i}`} initial={{height:0,opacity:0}} animate={{height:'auto',opacity:1}} exit={{height:0,opacity:0}} className="overflow-hidden"><p className="faq-answer">{f.answer}</p></motion.div>}</AnimatePresence></div>)}</div></div></Wrap></section>}

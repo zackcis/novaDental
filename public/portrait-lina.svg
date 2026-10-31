@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="580" viewBox="0 0 440 580" role="img" aria-label="Abstract illustrated portrait">
+ <defs><linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dceced"/><stop offset="1" stop-color="#faf7ee"/></linearGradient><linearGradient id="coat" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#fff"/><stop offset="1" stop-color="#f5eee6"/></linearGradient></defs>
+ <rect width="440" height="580" fill="url(#back)"/><circle cx="220" cy="235" r="169" fill="#608e97" opacity=".14"/><circle cx="320" cy="90" r="45" fill="#fff" opacity=".25"/>
+ <path d="M0 536Q90 452 132 443L166 432L193 351H250L282 432L316 443Q396 473 440 536V580H0Z" fill="#355c55"/>
+ <path d="M82 479Q118 443 168 428L193 350L218 398L248 350L275 428Q337 445 378 484L397 580H42Z" fill="url(#coat)"/>
+ <path d="M168 425L215 484L186 565L153 433Z" fill="#ecf0ea"/><path d="M275 428L220 484L255 568L295 440Z" fill="#e6eae5"/>
+ <path d="M193 297H250V363Q250 399 220 408Q192 398 193 363Z" fill="#dba984"/>
+ <path d="M116 270Q86 197 126 129Q154 88 220 93Q296 93 315 159Q334 224 298 288L273 273L171 271Z" fill="#45302c"/><path d="M145 169Q145 116 220 115Q295 116 295 170L290 238Q275 300 221 301Q160 301 150 240Z" fill="#dba984"/><path d="M141 183Q128 120 170 107Q230 83 280 110Q309 130 296 179Q287 151 272 142Q232 150 214 132Q190 152 155 148Z" fill="#45302c"/>
+ <path d="M167 206Q182 195 200 205M243 205Q260 196 278 207" fill="none" stroke="#45302c" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+ <ellipse cx="188" cy="220" rx="4.5" ry="3.5" fill="#283a39"/><ellipse cx="257" cy="220" rx="4.5" ry="3.5" fill="#283a39"/>
+ <path d="M222 226Q213 248 224 251" fill="none" stroke="#955e50" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+ <path d="M199 270Q223 288 247 270" fill="none" stroke="#83463e" stroke-width="3" stroke-linecap="round"/>
+ <path d="M218 484L200 580H243Z" fill="#608e97" opacity=".16"/>
+ <path d="M50 70L56 89L75 95L56 100L50 120L44 100L25 95L44 89Z" fill="#fff" opacity=".64"/>
+ <path d="M382 328L388 344L405 350L388 354L382 373L377 354L360 350L377 344Z" fill="#fff" opacity=".45"/>
+ </svg>
